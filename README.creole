@@ -4,6 +4,9 @@ TeX
 
 == Instructions
 # Download [[http://www.tug.org/mactex/2011/|MacTeX]] and install it
-# {{{git clone this_project}}}
+# {{{git clone git@github.com:blazingcloud/easytex.git}}}
 # {{{mv easytex PROJECT_NAME}}}
 # Change the git remote to point to a new repository
+## Better yet, just copy the Makefile and create a src/ dir in your new project folder
+# To build src/*.tex into doc/*.pdf, run {{{make}}}
+# To delete doc/*.pdf, run {{{make destroy}}}
