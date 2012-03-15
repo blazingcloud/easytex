@@ -10,3 +10,7 @@ TeX
 ## Better yet, just copy the Makefile and create a src/ dir in your new project folder
 # To build src/*.tex into doc/*.pdf, run {{{make}}}
 # To delete doc/*.pdf, run {{{make destroy}}}
+
+== TeX Links
+# [[http://ctan.tug.org/tex-archive/info/lshort/english/lshort.pdf|Awesome Doc]]
+# [[http://www.latex-project.org/|Official LaTeX Page]]
